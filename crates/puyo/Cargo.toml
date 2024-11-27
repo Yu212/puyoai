@@ -1,0 +1,11 @@
+[package]
+name = "puyo"
+version = "0.1.0"
+edition = "2021"
+
+[features]
+portable_simd = []
+
+[dependencies]
+termion = "4.0.3"
+rand = "0.9.0-beta.0"
